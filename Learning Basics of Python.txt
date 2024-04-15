@@ -1,0 +1,30 @@
+Learning Basics of Python:
+
+Compiler and Interpreter - A compiler is a program used to convert the code into binary for the computer to understand. An interpreter is also a program used to convert code into binary. However, a compiler converts all the code at once and executes it, while an interpreter converts the code line by line and informs us about any error before executing it.
+
+Note:- A lot of languages use the combination of compiler and interpreter.
+For example: Java, Python, etc.
+
+
+Python - python is a programming language.
+Why it is special :
+1. It has easier syntax as compared to other languages.
+2. It is a high-level language.
+3. It is an object oriented programming language.
+4. It has tons of libraries for any specific task.
+
+
+Algorithms - algorithms are set of codes or instructions that are used to perform any specific action.
+
+Note:- All algorithms are programs but not all programs are algorithms.
+
+time complexity - The time taken by a program to get excuted is called time complexity.
+
+Asymptotic notations - 
+1. Worst case (big O) - maximum time taken by a program to execute. Denoted by Big O.
+2. Average case (theta) - Average time taken by a program to execute. Denoted by Theta.
+3. best case (omega) - the least time taken by a program to execute. Denoted by Omega.
+ 
+Space complexity - The amount of space taken by a program to get executed is called space complexity.
+
+Note:- The program that has the least time and space complexity is called the optimal code or the optimum solution.
