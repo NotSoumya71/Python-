@@ -1,4 +1,4 @@
-Learning Basics of Python:
+Basics of Python:
 
 Compiler and Interpreter - A compiler is a program used to convert the code into binary for the computer to understand. An interpreter is also a program used to convert code into binary. However, a compiler converts all the code at once and executes it, while an interpreter converts the code line by line and informs us about any error before executing it.
 
