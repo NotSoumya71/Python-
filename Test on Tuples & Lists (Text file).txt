@@ -1,0 +1,98 @@
+Test on Lists & Tuples
+	1.	Tuples have round brackets while Lists have box brackets. Tuples cannot be directly modified, unlike lists, which can be directly modified. 
+
+	2.	Tuples:
+         - They use round brackets
+         - Unchangeable 
+         - allow duplicates
+         - Allow different data types at once.
+	3.	 Lists:
+         - They use square brackets 
+         - Changeable 
+         - Allow duplicates 
+         - Allow different data types at once.
+	4.	The code to create a tuple and convert it to a list:
+->    tup = (12,13,14,15,16)
+        Li = list(tup)
+        print(Li)
+
+	5.	Index function is used to find out the index or position of a particular item in a list.
+        Code: 
+->    li1 = [ “Apple” , “banana” , “cherry” , “Orange”]
+        y = li1.index(“cherry”)
+       print(y)
+     Count function is used to count the number of times an item has appeared in a list.
+       Code:
+->  li2 = [12,13,12,14,15,12,16,17,18,19,12,10,12]
+      x = li2.count(12)
+     print(x)
+
+	6.	We can remove an item from a tuple by first converting it into a list, then by using remove function, pop function and del function (delete). 
+The code:
+   Converting tuple to list:
+       tup1 = (1,2,3,4,5)
+        list1 = list(tup1)
+
+    Removing items:
+              list1.remove(3)
+                    OR
+              list1.pop(3)
+                   OR
+              del list1[2]
+
+	7.	my_list1 = [10,20,30,40,50]
+       my_tup1 = (60,70,80,90,100)
+       my_list1.extend(my_tup1)
+       print(my_list1)
+
+	8.	When we usually create a tuple, we assign values to it. This is called packing. When we unpack a tuple, we extract the values into variables. 
+For example:
+      tup3 = (“Banana” , “Orange” , “Apple”)
+     (yellow , orange , red) = tup3
+print(yellow)
+print(orange)
+print(red)
+
+	9.	Functions used on lists:
+	⁃	Index: used to check the position of an item
+lis = [ 1,2,3,4,5,6,7,8,9,10 ] 
+lis.index(10)
+	⁃	remove: removing an item from a list
+lis.remove(10)
+	⁃	append: adding an item at the end of a list
+lis.append(11)
+	⁃	extend: extend the list by adding an item (or another iterable) to the list.
+lis.extend(10)
+	⁃	pop: removing an item by mentioning its index. By default it removes the last item.
+lis.pop(9)
+	⁃	clear: empties out the whole list.
+lis.clear()
+	⁃	Insert: inserts an item at a given specific position.
+lis.insert(2, “numbers” )
+	⁃	copy: copies a list with a variable.
+lis2 = lis.copy()
+	⁃	count: used to count a value that has appeared multiple times in a list.
+lis.count(3)
+	⁃	Sort: helps to sort lists in ascending or descending order.
+lis.sort( reverse = True )
+	⁃	del: the del keyword can delete an entire list.
+del lis 
+
+
+	10.	A list constructor and a tuple constructor are two ways of creating iterables (tuples and lists) through pre-defined functions — list(()), tuple(())
+
+	11.	List comprehension is a way of creating a new list based on another existing list. This is usually done by using a for loop along with a specific condition.
+        Code for this-
+        fruits = [ “Apple” , “Banana” , “Peach” , “Orange” , “strawberry” , “Watermelon” ]
+        new_list = []
+        for x in fruits:
+               if “e” in x:
+                       new_list.append(x)
+        print(new_list)
+
+	12.	Sort function helps in arranging items in a list in either ascending order or descending order. To arrange a list in descending order through this function, you  initialize a value ‘reverse’ as True in the parenthesis.
+        The code for this - 
+         
+       numbers = [ 1, 3, 5, 2 ,6 ,7 4, 9, 8, 10] 
+       numbers.sort(reverse = True)
+       print(numbers)
